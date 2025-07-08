@@ -1,0 +1,6 @@
+*.class
+*.log
+!src/main/resources/static/
+target/
+application.properties
+

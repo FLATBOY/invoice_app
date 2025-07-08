@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Login - Invoice web</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/dashboard.js"></script>
+  </head>
+  <body>
+<script>
+  if (window.location.search.includes('error')) {
+    alert('Invalid username or password!');
+  }
+</script>
+  <div class="login-box">
+    <h2>Login</h2>
+    <form method="post" action="/login">
+    <input type="text" name="username" placeholder="Username" required >
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit">Log In</button>
+    </form>
+      </div>
+    </body>
+</html>

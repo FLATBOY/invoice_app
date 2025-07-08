@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Dashboard Invoice</title>
+  <link rel="stylesheet" href="style.css">
+  <body>
+	<script src="js/dashboard.js"></script>
+    <div class="header">
+      <div class="total">Total Spending: <span id="total-spending">0.00</span></div>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>  
+            <th>Qty</th>
+			<th>Unit</th>
+            <th>Price</th>  
+            <th>Date</th>  
+          </tr>
+      </thead>
+      <tbody id="invoice-table">
+        
+      </tbody>
+      </table>
+      <a class="btn" href="invoice.html">+ Create New Invoice</a>
+		<form method="post" action="/logout" style="margin-top: 20px;">
+        <button type="submit" class="btn">Logout</button>
+      </form>
+    </div>
+  </body>
+</html>
