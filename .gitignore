@@ -28,3 +28,4 @@ src/main/resources/
 !src/main/resources/static/
 target/
 
+.DS_Store
